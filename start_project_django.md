@@ -49,7 +49,9 @@
     - redis-server
     - redis-desktop-manage
     - mysql-server
+        sudo mysql
         ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'insert_password';
+        mysql -u root -p
     - heidisql
     - visual studio code
     - postman
