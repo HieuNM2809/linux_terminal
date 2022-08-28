@@ -49,6 +49,7 @@
     - redis-server
     - redis-desktop-manage
     - mysql-server
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'insert_password';
     - heidisql
     - visual studio code
     - postman
