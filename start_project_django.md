@@ -52,4 +52,7 @@
     - heidisql
     - visual studio code
     - postman
-    - openvpn
+    - openvpn:
+        sudo apt-get install openvpn
+        network-manager-openvpn
+        network-manager-openvpn-gnome
