@@ -63,3 +63,7 @@
         git --version
         sudo apt install git
         git --version
+        
+# +) OpenVPN connect:
+#### **Note the distinction between uppercase and lowercase for the account
+        openvpn --config Downloads/client.ovpn --auth-user-pass --auth-retry interact
