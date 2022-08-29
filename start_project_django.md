@@ -63,6 +63,8 @@
         git --version
         sudo apt install git
         git --version
+    - create shortcut:
+        ln -s /media/anph/Windows/Code/ ~/Desktop/ 
         
 # +) OpenVPN connect:
 #### **Note the distinction between uppercase and lowercase for the account
