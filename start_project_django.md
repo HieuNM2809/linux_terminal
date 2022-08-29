@@ -59,3 +59,7 @@
         sudo apt-get install openvpn
         network-manager-openvpn
         network-manager-openvpn-gnome
+    - git:
+        git --version
+        sudo apt install git
+        git --version
