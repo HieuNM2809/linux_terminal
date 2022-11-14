@@ -9,3 +9,6 @@ Linux 20.04.1
 ### Git user linux:
     linux
     glpat-DEyyShnVLKS5LbYqNhT-
+### Unikey fcitx
+    sudo apt-get install fcitx-unikey
+    im-config -n fcitx
