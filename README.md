@@ -12,3 +12,5 @@ Linux 20.04.1
 ### Unikey fcitx
     sudo apt-get install fcitx-unikey
     im-config -n fcitx
+### set global env
+    ![alt text](https://github.com/anph3/linux_terminal/blob/main/global_env.png?raw=true)
