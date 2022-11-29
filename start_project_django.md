@@ -48,6 +48,7 @@
 # +) Tool install:
     - redis-server
     - redis-desktop-manage
+    - sudo apt-get install libmysqlclient-dev
     - mysql-server
         sudo mysql
         ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'insert_password';
