@@ -51,7 +51,7 @@
     - sudo apt-get install libmysqlclient-dev
     - mysql-server
         sudo mysql
-        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'insert_password';
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
         mysql -u root -p
     - heidisql
     - visual studio code
