@@ -29,7 +29,9 @@
         USE_PRODUCTION=0
 
         APP_ENV=local
-
+        
+    - create venv:
+        virtualenv venv
 # +) Terminal setup project:
     - check git:
         git branch
