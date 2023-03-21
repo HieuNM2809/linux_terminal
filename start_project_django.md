@@ -33,6 +33,8 @@
     - create venv:
         virtualenv venv
 # +) Terminal setup project:
+    - linux 20.04 mysqlclient
+        sudo apt-get install python3 python-dev python3-dev      build-essential libssl-dev libffi-dev      libxml2-dev libxslt1-dev zlib1g-dev 
     - check git:
         git branch
         git checkout dev
