@@ -1,5 +1,9 @@
 ## install docker
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+## not need sudo:
+    sudo usermod -aG docker ${USER}
+    ls -l /var/run/docker.sock
+    sudo chmod 660 /var/run/docker.sock
 ## docker config proxy (if any)
 #### step 1:
     sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
