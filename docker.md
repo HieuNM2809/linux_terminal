@@ -6,6 +6,7 @@
     sudo chmod 660 /var/run/docker.sock
 ## docker config proxy (if any)
 #### step 1:
+    mkdir -p /etc/systemd/system/docker.service.d
     sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
 #### step 2: in file
     [Service]
