@@ -26,8 +26,8 @@
 #### mysql pull
     docker pull mysql:8.0
 #### mysql config
-    docker run -d --name my-mysql -e MYSQL_ROOT_PASSWORD=mysecretpassword -p 3307:3306 mysql:8.0
+    docker run -d --name my-mysql -e MYSQL_ROOT_PASSWORD=mysecretpassword --restart=always -p 3307:3306 mysql:8.0
 3307 is port in this pc, 3306 is port in container
 ##### or
-    docker run --name my-mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=your_password -e MYSQL_ROOT_HOST='%' -d mysql --default-authentication-plugin=mysql_native_password
+    docker run --name my-mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=your_password --restart=always -e MYSQL_ROOT_HOST='%' -d mysql --default-authentication-plugin=mysql_native_password
 
